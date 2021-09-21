@@ -1,0 +1,73 @@
+body {
+	background-color: rgb(228, 175, 252);
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	height: 100%;
+	width: 100%;
+	margin: auto;
+}
+
+header {
+	background: linear-gradient(rgba(87, 31, 124, 0.9) 40%, 
+				rgba(161, 31, 255, 0.6) 80%, rgb(228, 175, 252));
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 200px;
+	width: 100%;
+}
+footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-end;
+	height: 200px;
+	background: linear-gradient(rgb(228, 175, 252), 
+				rgba(161, 31, 255, 0.6) 40%, rgba(87, 31, 124, 0.9) 80%);
+}
+h3, p {
+	color: rgba(155, 53, 185, 0.6);
+	text-shadow: 1px 1px 2px white, 
+				 0 0 1em rgba(41, 6, 55, 0.5), 
+				 0 0 0.2em rgba(41, 6, 55, 0.5);
+	font-family: "Snell Roundhand", cursive;
+	margin: 10px;
+	margin-top: 50px;
+}
+h2 {
+	color: rgba(155, 53, 185, 0.6);
+	font-family: "Snell Roundhand", cursive;
+	margin-top: 50px;
+	font-size: 35px;
+	text-shadow: 1px 1px 2px white, 
+				 0 0 1em rgba(41, 6, 55, 0.5), 
+				 0 0 0.2em rgba(41, 6, 55, 0.5);
+}
+.description>h3 {
+	font-size: 30px;
+}
+.description>p {
+	font-size: 20px;
+}
+
+.flex-cont {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 60%;
+}
+.cake {
+	display: flex;
+	width: 60%;
+	margin: 80px;
+	box-shadow: 0px 0px 50px 20px rgba(87, 31, 124, 0.9);
+}
+.description {
+	background: rgba(87, 31, 124, 0.9);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 40%;
+}
