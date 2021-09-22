@@ -11,7 +11,12 @@ window.onload = function() {
 	};
 	buttonSP2.onclick = function() {
 		secondPage.style.display = "none";
+		thirdPage.style.display = "flex";
 	};
+	buttonTP1.onclick = function() {
+		thirdPage.style.display = "none";
+		secondPage.style.display = "flex";
+	}
 	/*alert("sraka");*/
 
 
