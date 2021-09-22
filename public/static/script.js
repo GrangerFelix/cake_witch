@@ -3,7 +3,7 @@ window.onload = function() {
 		document.getElementById('homePage').classList.remove('homePage');
 		document.getElementById('homePage').classList.add('displayNone');
 		secondPage.style.display = "flex";
-		alert("zhopa");
+		/*alert("zhopa");*/
 	};
 	buttonSP1.onclick = function() {
 		secondPage.style.display = "none";
@@ -12,7 +12,7 @@ window.onload = function() {
 	buttonSP2.onclick = function() {
 		secondPage.style.display = "none";
 	};
-	alert("sraka");
+	/*alert("sraka");*/
 
 
 
