@@ -56,11 +56,10 @@ header, footer, .contHomePage2 {
 	height: 100%;
 	font-size: 30px;
 	margin: auto;
-	color: rgba(0, 0, 0, 0);
+	color: rgb(200, 136, 70);
 	align-items: center;
 }
 .button:hover {
 	background: rgba(200, 136, 70, 0.1);
-	color: rgb(200, 136, 70);
 	cursor: pointer;
 }
