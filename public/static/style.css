@@ -37,7 +37,7 @@ header, footer, .contHomePage2 {
 	flex-direction: column;
 }
 
-.homePage, .secondPage {
+.homePage {
 	border: 3px solid rgb(200, 136, 70);
 	box-shadow: 0px 0px 150px #2c0b0c inset;
 	align-items: center;
@@ -63,3 +63,15 @@ header, footer, .contHomePage2 {
 	background: rgba(200, 136, 70, 0.1);
 	cursor: pointer;
 }
+
+.secondPage {
+	display: none;
+	flex-direction: row;
+	border: 3px solid rgb(200, 136, 70);
+	box-shadow: 0px 0px 150px #2c0b0c inset;
+	align-items: center;
+	justify-content: space-around;
+	width: 100%;
+	min-height: 90vh;
+	margin: 30px;
+} 
