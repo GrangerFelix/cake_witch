@@ -32,7 +32,7 @@ body, .homePage, .button {
 	display: flex;
 	flex-direction: row;
 }
-header, footer, .contHomePage2 {
+header, footer, .contHomePage2, .content{
 	display: flex;
 	flex-direction: column;
 }
@@ -40,28 +40,35 @@ header, footer, .contHomePage2 {
 .homePage {
 	border: 3px solid rgb(200, 136, 70);
 	box-shadow: 0px 0px 150px #2c0b0c inset;
-	align-items: center;
-	justify-content: space-around;
 	width: 100%;
 	min-height: 90vh;
 	margin: 30px;
 }
+
+.homePage, .secondPage {
+	justify-content: space-around;
+}
 .contHomePage1, .contHomePage2 {
 	align-items: baseline;
-	justify-content: center;
 	width: 50%;
 }
-.button {
+.button, .buttonSP1 {
 	width: 2%;
 	height: 100%;
 	font-size: 30px;
 	margin: auto;
 	color: rgb(200, 136, 70);
-	align-items: center;
 }
 .button:hover {
 	background: rgba(200, 136, 70, 0.1);
 	cursor: pointer;
+}
+
+.homePage, .button, .buttonSP1, .secondPage, .content {
+	align-items: center;
+}
+.contHomePage1, .contHomePage2, .content {
+	justify-content: center;
 }
 
 .secondPage {
@@ -69,9 +76,11 @@ header, footer, .contHomePage2 {
 	flex-direction: row;
 	border: 3px solid rgb(200, 136, 70);
 	box-shadow: 0px 0px 150px #2c0b0c inset;
-	align-items: center;
-	justify-content: space-around;
 	width: 100%;
 	min-height: 90vh;
 	margin: 30px;
 } 
+.content {
+	height: 100%;
+	width: 96%;
+}
