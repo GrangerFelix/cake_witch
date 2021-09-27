@@ -23,7 +23,7 @@ window.onload = function() {
 
 	buttonSP1.onclick = function() {
 		secondPage.style.display = "none";
-		document.getElementById('homePage').classList.add('homePage');
+		homePage.style.display = "flex";
 	};
 	buttonSP2.onclick = function() {
 		secondPage.style.display = "none";
