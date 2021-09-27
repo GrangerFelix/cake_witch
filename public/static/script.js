@@ -17,10 +17,9 @@ window.onload = function() {
 		thirdPage.style.display = "none";
 		secondPage.style.display = "flex";
 	}
+	videoContent.onclick = function() {
+		video = document.getElementById('video');
+		video.play();
+	}
 	/*alert("sraka");*/
-
-
-
-
-
 };
