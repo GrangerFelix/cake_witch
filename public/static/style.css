@@ -48,6 +48,12 @@ header, footer, .contHomePage2, .content{
 	margin: 30px;
 }
 
+.menuLeft, .menuRight {
+	width: 49%;
+}
+footer>h1, .menuLeft>h2, .menuRight>h2 {
+	cursor: pointer;
+}
 .homePage, .secondPage {
 	justify-content: space-around;
 }
@@ -55,7 +61,7 @@ header, footer, .contHomePage2, .content{
 	align-items: baseline;
 	width: 50%;
 }
-.button, .buttonSP1 {
+.button {
 	width: 2%;
 	height: 100%;
 	font-size: 30px;
@@ -67,14 +73,15 @@ header, footer, .contHomePage2, .content{
 	cursor: pointer;
 }
 
-.homePage, .button, .buttonSP1, .secondPage, .content {
+.homePage, .button, .secondPage, .content {
 	align-items: center;
 }
 .contHomePage1, .contHomePage2, .content {
 	justify-content: center;
 }
 
-.secondPage {
+
+.secondPage, .thirdPage, .menuPage {
 	display: none;
 	flex-direction: row;
 	border: 3px solid rgb(200, 136, 70);
@@ -83,16 +90,7 @@ header, footer, .contHomePage2, .content{
 	min-height: 90vh;
 	margin: 30px;
 } 
-.thirdPage {
-	display: none;
-	flex-direction: row;
-	border: 3px solid rgb(200, 136, 70);
-	box-shadow: 0px 0px 150px #2c0b0c inset;
-	width: 100%;
-	min-height: 90vh;
-	margin: 30px;
 
-}
 .content {
 	height: 100%;
 	width: 96%;

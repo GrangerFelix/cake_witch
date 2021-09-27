@@ -5,6 +5,20 @@ window.onload = function() {
 		secondPage.style.display = "flex";
 		/*alert("zhopa");*/
 	};
+	menu.onclick = function() {
+		document.getElementById('homePage').classList.remove('homePage');
+		document.getElementById('homePage').classList.add('displayNone');
+		menuPage.style.display = "flex";
+	}
+	menu1.onclick = function() {
+		menuPage.style.display = "none";
+		secondPage.style.display = "flex";
+	} 
+	menu2.onclick = function() {
+		menuPage.style.display = "none";
+		thirdPage.style.display = "flex";
+	} 
+
 	buttonSP1.onclick = function() {
 		secondPage.style.display = "none";
 		document.getElementById('homePage').classList.add('homePage');
